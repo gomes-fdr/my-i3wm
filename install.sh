@@ -12,9 +12,9 @@ sudo apt install curl wget dirmngr git
 ### installing packages
 sudo apt install -f -y xorg fonts-font-awesome fonts-roboto fonts-noto fonts-mplus pulseaudio alsa-utils xdg-user-dirs
 sudo apt install -f -y i3
-sudo apt install -f -y compton hsetroot rxvt-unicode xsel rofi  xsettingsd lxappearance scrot viewnior
-sudo apt install -f -y firefox-esr file-roller pcmanfm pavucontrol snapd neofetch geany keepassxc
-sudo apt install -f -y lightdm network-manager wicd cups
+sudo apt install -f -y compton hsetroot rxvt-unicode xsel rofi xsettingsd lxappearance scrot viewnior
+sudo apt install -f -y firefox-esr file-roller pcmanfm pavucontrol neofetch geany keepassxc
+sudo apt install -f -y slim network-manager wicd cups
 
 ### creating dirs like "Pictures", "Downloads" etc.
 xdg-user-dirs-update
